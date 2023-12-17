@@ -1,0 +1,452 @@
+meliana@DESKTOP-OB00BAT:~/proyek-pertama$ ls
+[+] Building 175.0s (8/9)                                                                                                                                                                           docker:default
+ => [internal] load .dockerignore                                                                                                                                                                             0.1s
+ => => transferring context: 88B                                                                                                                                                                              0.0s
+ => [internal] load build definition from Dockerfile                                                                                                                                                          0.1s
+ => => transferring dockerfile: 207B                                                                                                                                                                          0.0s
+ => [internal] load metadata for docker.io/library/node:14                                                                                                                                                    4.5s
+ => [auth] library/node:pull token for registry-1.docker.io                                                                                                                                                   0.0s
+ => [1/4] FROM docker.io/library/node:14@sha256:a158d3b9b4e3fa813fa6c8c590b8f0a860e015ad4e59bbce5744d2f6fd8461aa                                                                                            110.5s
+ => => resolve docker.io/library/node:14@sha256:a158d3b9b4e3fa813fa6c8c590b8f0a860e015ad4e59bbce5744d2f6fd8461aa                                                                                              0.0s
+ => => sha256:1d12470fa662a2a5cb50378dcdc8ea228c1735747db410bbefb8e2d9144b5452 7.51kB / 7.51kB                                                                                                                0.0s
+ => => sha256:2ff1d7c41c74a25258bfa6f0b8adb0a727f84518f55f65ca845ebc747976c408 50.45MB / 50.45MB                                                                                                             26.9s
+ => => sha256:a158d3b9b4e3fa813fa6c8c590b8f0a860e015ad4e59bbce5744d2f6fd8461aa 776B / 776B                                                                                                                    0.0s
+[+] Building 179.5s (8/9)                                                                                                                                                                           docker:default
+[+] Building 185.1s (8/9)                                                                                                                                                                           docker:default
+ => [internal] load .dockerignore                                                                                                                                                                             0.1s
+ => => transferring context: 88B                                                                                                                                                                              0.0s
+ => [internal] load build definition from Dockerfile                                                                                                                                                          0.1s
+ => => transferring dockerfile: 207B                                                                                                                                                                          0.0s
+ => [internal] load metadata for docker.io/library/node:14                                                                                                                                                    4.5s
+ => [auth] library/node:pull token for registry-1.docker.io                                                                                                                                                   0.0s
+ => [1/4] FROM docker.io/library/node:14@sha256:a158d3b9b4e3fa813fa6c8c590b8f0a860e015ad4e59bbce5744d2f6fd8461aa                                                                                            110.5s
+ => => resolve docker.io/library/node:14@sha256:a158d3b9b4e3fa813fa6c8c590b8f0a860e015ad4e59bbce5744d2f6fd8461aa                                                                                              0.0s
+ => => sha256:1d12470fa662a2a5cb50378dcdc8ea228c1735747db410bbefb8e2d9144b5452 7.51kB / 7.51kB                                                                                                                0.0s
+ => => sha256:2ff1d7c41c74a25258bfa6f0b8adb0a727f84518f55f65ca845ebc747976c408 50.45MB / 50.45MB                                                                                                             26.9s
+ => => sha256:a158d3b9b4e3fa813fa6c8c590b8f0a860e015ad4e59bbce5744d2f6fd8461aa 776B / 776B                                                                                                                    0.0s
+ => => sha256:2cafa3fbb0b6529ee4726b4f599ec27ee557ea3dea7019182323b3779959927f 2.21kB / 2.21kB                                                                                                                0.0s
+ => => sha256:b253aeafeaa7e0671bb60008df01de101a38a045ff7bc656e3b0fbfc7c05cca5 7.86MB / 7.86MB                                                                                                               25.0s
+ => => sha256:3d2201bd995cccf12851a50820de03d34a17011dcbb9ac9fdf3a50c952cbb131 10.00MB / 10.00MB                                                                                                              4.5s
+ => => sha256:1de76e268b103d05fa8960e0f77951ff54b912b63429c34f5d6adfd09f5f9ee2 51.88MB / 51.88MB                                                                                                             39.1s
+ => => sha256:d9a8df5894511ce28a05e2925a75e8a4acbd0634c39ad734fdfba8e23d1b1569 191.85MB / 191.85MB                                                                                                           95.4s
+ => => extracting sha256:2ff1d7c41c74a25258bfa6f0b8adb0a727f84518f55f65ca845ebc747976c408                                                                                                                     3.4s
+ => => sha256:6f51ee005deac0d99898e41b8ce60ebf250ebe1a31a0b03f613aec6bbc9b83d8 4.19kB / 4.19kB                                                                                                               27.5s
+ => => sha256:5f32ed3c3f278edda4fc571c880b5277355a29ae8f52b52cdf865f058378a590 35.24MB / 35.24MB                                                                                                             49.1s
+ => => extracting sha256:b253aeafeaa7e0671bb60008df01de101a38a045ff7bc656e3b0fbfc7c05cca5                                                                                                                     0.4s
+ => => extracting sha256:3d2201bd995cccf12851a50820de03d34a17011dcbb9ac9fdf3a50c952cbb131                                                                                                                     0.3s
+ => => extracting sha256:1de76e268b103d05fa8960e0f77951ff54b912b63429c34f5d6adfd09f5f9ee2                                                                                                                     3.4s
+ => => sha256:0c8cc2f24a4dcb64e602e086fc9446b0a541e8acd9ad72d2e90df3ba22f158b3 2.29MB / 2.29MB                                                                                                               42.6s
+ => => sha256:0d27a8e861329007574c6766fba946d48e20d2c8e964e873de352603f22c4ceb 450B / 450B                                                                                                                   43.2s
+ => => extracting sha256:d9a8df5894511ce28a05e2925a75e8a4acbd0634c39ad734fdfba8e23d1b1569                                                                                                                    10.5s
+ => => extracting sha256:6f51ee005deac0d99898e41b8ce60ebf250ebe1a31a0b03f613aec6bbc9b83d8                                                                                                                     0.0s
+ => => extracting sha256:5f32ed3c3f278edda4fc571c880b5277355a29ae8f52b52cdf865f058378a590                                                                                                                     3.5s
+ => => extracting sha256:0c8cc2f24a4dcb64e602e086fc9446b0a541e8acd9ad72d2e90df3ba22f158b3                                                                                                                     0.1s
+ => => extracting sha256:0d27a8e861329007574c6766fba946d48e20d2c8e964e873de352603f22c4ceb                                                                                                                     0.0s
+ => [internal] load build context                                                                                                                                                                             0.1s
+ => => transferring context: 2.96MB                                                                                                                                                                           0.1s
+ => [2/4] WORKDIR /app                                                                                                                                                                                        0.3s
+ => [3/4] COPY . .                                                                                                                                                                                            0.1s
+ => [4/4] RUN npm install --production --unsafe-perm && npm run build                                                                                                                                        69.6s
+ => => # found 98 vulnerabilities (7 low, 34 moderate, 46 high, 11 critical)
+ => => #   run `npm audit fix` to fix them, or `npm audit` for details
+ => => # > docker-software-delivery@1.0.0 build /app
+ => => # > node ./node_modules/gulp/bin/gulp.js
+ => => # [14:43:45] Using gulpfile /app/gulpfile.js
+ => => # [14:43:45] Starting 'scripts'...
+ => => # > docker-software-delivery@1.0.0 preinstall /app
+ => => # > npx npm-force-resolutions
+ => => # npx: installed 6 in 31.083s
+ => [3/4] COPY . .                                                                                                                                                                                            0.1s
+ => [4/4] RUN npm install --production --unsafe-perm && npm run build                                                                                                                                        39.7s
+ => => # > docker-software-delivery@1.0.0 preinstall /app
+ => => # > npx npm-force-resolutions
+ => => # npx: installed 6 in 31.083s
+[+] Building 185.2s (8/9)                                                                                                                                                                           docker:default
+ => [internal] load .dockerignore                                                                                                                                                                             0.1s
+ => => transferring context: 88B                                                                                                                                                                              0.0s
+ => [internal] load build definition from Dockerfile                                                                                                                                                          0.1s
+ => => transferring dockerfile: 207B                                                                                                                                                                          0.0s
+ => [internal] load metadata for docker.io/library/node:14                                                                                                                                                    4.5s
+ => [auth] library/node:pull token for registry-1.docker.io                                                                                                                                                   0.0s
+ => [1/4] FROM docker.io/library/node:14@sha256:a158d3b9b4e3fa813fa6c8c590b8f0a860e015ad4e59bbce5744d2f6fd8461aa                                                                                            110.5s
+ => => resolve docker.io/library/node:14@sha256:a158d3b9b4e3fa813fa6c8c590b8f0a860e015ad4e59bbce5744d2f6fd8461aa                                                                                              0.0s
+ => => sha256:1d12470fa662a2a5cb50378dcdc8ea228c1735747db410bbefb8e2d9144b5452 7.51kB / 7.51kB                                                                                                                0.0s
+[+] Building 186.5s (10/10) FINISHED                                                                                                                                                                docker:default
+ => [internal] load .dockerignore                                                                                                                                                                             0.1s
+ => => transferring context: 88B                                                                                                                                                                              0.0s
+ => [internal] load build definition from Dockerfile                                                                                                                                                          0.1s
+ => => transferring dockerfile: 207B                                                                                                                                                                          0.0s
+ => [internal] load metadata for docker.io/library/node:14                                                                                                                                                    4.5s
+ => [auth] library/node:pull token for registry-1.docker.io                                                                                                                                                   0.0s
+ => [1/4] FROM docker.io/library/node:14@sha256:a158d3b9b4e3fa813fa6c8c590b8f0a860e015ad4e59bbce5744d2f6fd8461aa                                                                                            110.5s
+ => => resolve docker.io/library/node:14@sha256:a158d3b9b4e3fa813fa6c8c590b8f0a860e015ad4e59bbce5744d2f6fd8461aa                                                                                              0.0s
+ => => sha256:1d12470fa662a2a5cb50378dcdc8ea228c1735747db410bbefb8e2d9144b5452 7.51kB / 7.51kB                                                                                                                0.0s
+ => => sha256:2ff1d7c41c74a25258bfa6f0b8adb0a727f84518f55f65ca845ebc747976c408 50.45MB / 50.45MB                                                                                                             26.9s
+ => => sha256:a158d3b9b4e3fa813fa6c8c590b8f0a860e015ad4e59bbce5744d2f6fd8461aa 776B / 776B                                                                                                                    0.0s
+ => => sha256:2cafa3fbb0b6529ee4726b4f599ec27ee557ea3dea7019182323b3779959927f 2.21kB / 2.21kB                                                                                                                0.0s
+ => => sha256:b253aeafeaa7e0671bb60008df01de101a38a045ff7bc656e3b0fbfc7c05cca5 7.86MB / 7.86MB                                                                                                               25.0s
+ => => sha256:3d2201bd995cccf12851a50820de03d34a17011dcbb9ac9fdf3a50c952cbb131 10.00MB / 10.00MB                                                                                                              4.5s
+ => => sha256:1de76e268b103d05fa8960e0f77951ff54b912b63429c34f5d6adfd09f5f9ee2 51.88MB / 51.88MB                                                                                                             39.1s
+ => => sha256:d9a8df5894511ce28a05e2925a75e8a4acbd0634c39ad734fdfba8e23d1b1569 191.85MB / 191.85MB                                                                                                           95.4s
+ => => extracting sha256:2ff1d7c41c74a25258bfa6f0b8adb0a727f84518f55f65ca845ebc747976c408                                                                                                                     3.4s
+ => => sha256:6f51ee005deac0d99898e41b8ce60ebf250ebe1a31a0b03f613aec6bbc9b83d8 4.19kB / 4.19kB                                                                                                               27.5s
+ => => sha256:5f32ed3c3f278edda4fc571c880b5277355a29ae8f52b52cdf865f058378a590 35.24MB / 35.24MB                                                                                                             49.1s
+ => => extracting sha256:b253aeafeaa7e0671bb60008df01de101a38a045ff7bc656e3b0fbfc7c05cca5                                                                                                                     0.4s
+ => => extracting sha256:3d2201bd995cccf12851a50820de03d34a17011dcbb9ac9fdf3a50c952cbb131                                                                                                                     0.3s
+[+] Running 4/14g sha256:1de76e268b103d05fa8960e0f77951ff54b912b63429c34f5d6adfd09f5f9ee2                                                                                                                     3.4s
+[+] Running 12/14ers [⠀⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀] 471.9kB/46.25MB Pulling                                                                                                                                                  7.6s
+ ⠼ item-db 13 layers [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿] 109.5MB/119.4MB Pulling                                                                                                                                                 55.4s
+   ✔ 92473f7ef455 Pull complete                                                                                                                                                                              36.2s
+[+] Running 14/14 Pull complete                                                                                                                                                                               1.1s
+ ✔ item-db 13 layers [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                                                                                                                                                  61.7s
+   ✔ 92473f7ef455 Pull complete                                                                                                                                                                              36.2s
+   ✔ fb52bde70123 Pull complete                                                                                                                                                                               1.1s
+   ✔ 64788f86be3f Pull complete                                                                                                                                                                               1.1s
+   ✔ 33f6d5f2e001 Pull complete                                                                                                                                                                               2.2s
+   ✔ 570e56656608 Pull complete                                                                                                                                                                               2.2s
+   ✔ f518a872ab12 Pull complete                                                                                                                                                                               6.5s
+   ✔ c9bdae151f64 Pull complete                                                                                                                                                                               5.2s
+   ✔ b2c58da5f563 Pull complete                                                                                                                                                                               6.3s
+   ✔ 2928038a6053 Pull complete                                                                                                                                                                               7.4s
+   ✔ 29a16c1b79ab Pull complete                                                                                                                                                                               7.6s
+   ✔ efec0f86077c Pull complete                                                                                                                                                                              53.3s
+   ✔ 261a04726d31 Pull complete                                                                                                                                                                               8.7s
+   ✔ 7c4062426e72 Pull complete                                                                                                                                                                              15.2s
+[+] Running 4/412 Waiting                                                                                                                                                                                     0.4s
+ ✔ Network proyek-pertama_default       Created                                                                                                                                                               0.1s
+ ✔ Volume "proyek-pertama_app-db"       Created                                                                                                                                                               0.0s
+ ✔ Container proyek-pertama-item-db-1   Created                                                                                                                                                               0.4s
+ ✔ Container proyek-pertama-item-app-1  Created                                                                                                                                                               0.1s
+Attaching to item-app-1, item-db-1                                                                                                                                                                            0.4s
+item-db-1   | 2023-12-17T14:47:51.560+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=f7f7630281a9                                                            0.4s
+item-db-1   | 2023-12-17T14:47:51.560+0000 I CONTROL  [initandlisten] db version v3.6.23                                                                                                                      0.4s
+item-db-1   | 2023-12-17T14:47:51.560+0000 I CONTROL  [initandlisten] git version: d352e6a4764659e0d0350ce77279de3c1f243e5c                                                                                   0.0s
+item-db-1   | 2023-12-17T14:47:51.560+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016                                                                                             0.0s
+item-db-1   | 2023-12-17T14:47:51.560+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+item-db-1   | 2023-12-17T14:47:51.560+0000 I CONTROL  [initandlisten] modules: none
+item-db-1   | 2023-12-17T14:47:51.560+0000 I CONTROL  [initandlisten] build environment:
+item-db-1   | 2023-12-17T14:47:51.560+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+item-db-1   | 2023-12-17T14:47:51.560+0000 I CONTROL  [initandlisten]     distarch: x86_64
+item-db-1   | 2023-12-17T14:47:51.560+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+item-db-1   | 2023-12-17T14:47:51.560+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+item-db-1   | 2023-12-17T14:47:51.561+0000 I STORAGE  [initandlisten] 0e30112822261 size: 2844
+item-db-1   | 2023-12-17T14:47:51.561+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+item-db-1   | 2023-12-17T14:47:51.561+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+item-db-1   | 2023-12-17T14:47:51.562+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3413M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+item-db-1   | 2023-12-17T14:47:52.162+0000 I STORAGE  [initandlisten] WiredTiger message [1702824472:162690][1:0x7fa822ecfa40], txn-recover: Set global recovery timestamp: 0
+item-db-1   | 2023-12-17T14:47:52.271+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T14:47:52.272+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+item-db-1   | 2023-12-17T14:47:52.272+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+item-db-1   | 2023-12-17T14:47:52.272+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T14:47:52.272+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T14:47:52.272+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+item-db-1   | 2023-12-17T14:47:52.272+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+item-db-1   | 2023-12-17T14:47:52.272+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T14:47:52.272+0000 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: d50df2db-6f1e-4010-8f00-c78f1a3f104e
+item-db-1   | 2023-12-17T14:47:52.304+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.6
+item-db-1   | 2023-12-17T14:47:52.305+0000 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: cad8561f-492d-4bec-a449-5683a1c76914
+item-db-1   | 2023-12-17T14:47:52.332+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+item-db-1   | 2023-12-17T14:47:52.333+0000 I NETWORK  [initandlisten] listening via socket bound to 0.0.0.0
+item-db-1   | 2023-12-17T14:47:52.333+0000 I STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessions with generated UUID: 087ccdc7-dbab-49e5-8b95-ed74fd2eddaa
+item-db-1   | 2023-12-17T14:47:52.333+0000 I NETWORK  [initandlisten] listening via socket bound to /tmp/mongodb-27017.sock
+item-db-1   | 2023-12-17T14:47:52.333+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+item-db-1   | 2023-12-17T14:47:52.381+0000 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+item-db-1   | 2023-12-17T14:47:52.381+0000 I INDEX    [LogicalSessionCacheRefresh]       building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+item-db-1   | 2023-12-17T14:47:52.383+0000 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total records. 0 secs
+item-app-1  |
+item-app-1  | > docker-software-delivery@1.0.0 start /app
+item-app-1  | > node ./bin/www
+item-app-1  |
+item-app-1  | NODE_ENV: production
+item-db-1   | 2023-12-17T14:47:53.023+0000 I NETWORK  [listener] connection accepted from 172.18.0.3:48756 #1 (1 connection now open)
+item-db-1   | 2023-12-17T14:47:53.030+0000 I NETWORK  [conn1] received client metadata from 172.18.0.3:48756 conn1: { driver: { name: "nodejs", version: "2.2.36" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "5.15.133.1-microsoft-standard-WSL2" }, platform: "Node.js v14.21.3, LE, mongodb-core: 2.1.20" }
+item-app-1  | Connected to database
+[+] Stopping 0/1
+ ⠹ Container proyek-pertama-item-app-1  Stopping                                                                                                                                                              0.3s
+[+] Stopping 2/2d with code 0ss Ctrl+C again to force)
+ ✔ Container proyek-pertama-item-app-1  Stopped                                                                                                                                                               0.3s
+ ✔ Container proyek-pertama-item-db-1   Stopped                                                                                                                                                               0.5s
+item-db-1 exited with code 0
+canceled
+[+] Running 2/0-OB00BAT:~/proyek-pertama$ docker compose up
+ ✔ Container proyek-pertama-item-db-1   Created                                                                                                                                                               0.0s
+ ✔ Container proyek-pertama-item-app-1  Created                                                                                                                                                               0.0s
+Attaching to item-app-1, item-db-1
+item-db-1   | 2023-12-17T15:13:45.988+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=f7f7630281a9
+item-db-1   | 2023-12-17T15:13:45.988+0000 I CONTROL  [initandlisten] db version v3.6.23
+item-db-1   | 2023-12-17T15:13:45.988+0000 I CONTROL  [initandlisten] git version: d352e6a4764659e0d0350ce77279de3c1f243e5c
+item-db-1   | 2023-12-17T15:13:45.988+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+item-db-1   | 2023-12-17T15:13:45.988+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+item-db-1   | 2023-12-17T15:13:45.988+0000 I CONTROL  [initandlisten] modules: none
+item-db-1   | 2023-12-17T15:13:45.988+0000 I CONTROL  [initandlisten] build environment:
+item-db-1   | 2023-12-17T15:13:45.988+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+item-db-1   | 2023-12-17T15:13:45.988+0000 I CONTROL  [initandlisten]     distarch: x86_64
+item-db-1   | 2023-12-17T15:13:45.988+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+item-db-1   | 2023-12-17T15:13:45.988+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+item-db-1   | 2023-12-17T15:13:45.988+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+item-db-1   | 2023-12-17T15:13:45.989+0000 I STORAGE  [initandlisten]
+item-db-1   | 2023-12-17T15:13:45.989+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+item-db-1   | 2023-12-17T15:13:45.989+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+item-db-1   | 2023-12-17T15:13:45.989+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3413M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+item-app-1  |
+item-app-1  | > docker-software-delivery@1.0.0 start /app
+item-app-1  | > node ./bin/www
+item-app-1  |
+item-db-1   | 2023-12-17T15:13:46.729+0000 I STORAGE  [initandlisten] WiredTiger message [1702826026:729589][1:0x7f79e0340a40], txn-recover: Main recovery loop: starting at 1/24960
+item-db-1   | 2023-12-17T15:13:46.822+0000 I STORAGE  [initandlisten] WiredTiger message [1702826026:822951][1:0x7f79e0340a40], txn-recover: Recovering log 1 through 2
+item-app-1  | NODE_ENV: production
+item-app-1  | /app/node_modules/mongodb/lib/mongo_client.js:421
+item-app-1  |           throw err
+item-app-1  |           ^
+item-app-1  |
+item-app-1  | AssertionError [ERR_ASSERTION]: null == Error [MongoError]: failed to connect to server [item-db:27017] on first connect [Error: connect ECONNREFUSED 172.18.0.2:27017
+item-app-1  |     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16) {
+item-app-1  |   name: 'MongoError'
+item-app-1  | }]
+item-app-1  |     at Pool.<anonymous> (/app/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+item-app-1  |     at Pool.emit (events.js:400:28)
+item-app-1  |     at Connection.<anonymous> (/app/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+item-app-1  |     at Object.onceWrapper (events.js:520:26)
+item-app-1  |     at Connection.emit (e...
+item-app-1  |     at /app/app.js:24:10
+item-app-1  |     at connectCallback (/app/node_modules/mongodb/lib/mongo_client.js:527:5)
+item-app-1  |     at /app/node_modules/mongodb/lib/mongo_client.js:418:11
+item-app-1  |     at processTicksAndRejections (internal/process/task_queues.js:77:11) {
+item-app-1  |   generatedMessage: true,
+item-app-1  |   code: 'ERR_ASSERTION',
+item-app-1  |   actual: null,
+item-app-1  |   expected: Error [MongoError]: failed to connect to server [item-db:27017] on first connect [Error: connect ECONNREFUSED 172.18.0.2:27017
+item-app-1  |       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16) {
+item-app-1  |     name: 'MongoError'
+item-app-1  |   }]
+item-app-1  |       at Pool.<anonymous> (/app/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+item-app-1  |       at Pool.emit (events.js:400:28)
+item-app-1  |       at Connection.<anonymous> (/app/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+item-app-1  |       at Object.onceWrapper (events.js:520:26)
+item-app-1  |       at Connection.emit (events.js:400:28)
+item-app-1  |       at Socket.<anonymous> (/app/node_modules/mongodb-core/lib/connection/connection.js:189:49)
+item-app-1  |       at Object.onceWrapper (events.js:520:26)
+item-app-1  |       at Socket.emit (events.js:400:28)
+item-app-1  |       at emitErrorNT (internal/streams/destroy.js:106:8)
+item-app-1  |       at emitErrorCloseNT (internal/streams/destroy.js:74:3),
+item-app-1  |   operator: '=='
+item-app-1  | }
+item-app-1  | npm ERR! code ELIFECYCLE
+item-app-1  | npm ERR! errno 1
+item-app-1  | npm ERR! docker-software-delivery@1.0.0 start: `node ./bin/www`
+item-app-1  | npm ERR! Exit status 1
+item-app-1  | npm ERR!
+item-app-1  | npm ERR! Failed at the docker-software-delivery@1.0.0 start script.
+item-app-1  | npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+item-db-1   | 2023-12-17T15:13:46.904+0000 I STORAGE  [initandlisten] WiredTiger message [1702826026:904124][1:0x7f79e0340a40], txn-recover: Recovering log 2 through 2
+item-app-1  |
+item-app-1  | npm ERR! A complete log of this run can be found in:
+item-app-1  | npm ERR!     /root/.npm/_logs/2023-12-17T15_13_46_889Z-debug.log
+item-db-1   | 2023-12-17T15:13:46.978+0000 I STORAGE  [initandlisten] WiredTiger message [1702826026:978219][1:0x7f79e0340a40], txn-recover: Set global recovery timestamp: 0
+item-db-1   | 2023-12-17T15:13:47.029+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T15:13:47.030+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+item-db-1   | 2023-12-17T15:13:47.030+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+item-db-1   | 2023-12-17T15:13:47.030+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T15:13:47.030+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T15:13:47.030+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+item-db-1   | 2023-12-17T15:13:47.030+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+item-db-1   | 2023-12-17T15:13:47.030+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T15:13:47.042+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+item-db-1   | 2023-12-17T15:13:47.044+0000 I NETWORK  [initandlisten] listening via socket bound to 0.0.0.0
+item-db-1   | 2023-12-17T15:13:47.044+0000 I NETWORK  [initandlisten] listening via socket bound to /tmp/mongodb-27017.sock
+item-db-1   | 2023-12-17T15:13:47.044+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+item-app-1 exited with code 1
+[+] Stopping 2/2pping... (press Ctrl+C again to force)
+ ✔ Container proyek-pertama-item-app-1  Stopped                                                                                                                                                               0.0s
+ ✔ Container proyek-pertama-item-db-1   Stopped                                                                                                                                                               0.5s
+item-db-1 exited with code 0
+canceled
+[+] Running 2/0-OB00BAT:~/proyek-pertama$ docker compose up
+ ✔ Container proyek-pertama-item-db-1   Created                                                                                                                                                               0.0s
+ ✔ Container proyek-pertama-item-app-1  Created                                                                                                                                                               0.0s
+Attaching to item-app-1, item-db-1
+item-db-1   | 2023-12-17T15:16:29.640+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=f7f7630281a9
+item-db-1   | 2023-12-17T15:16:29.640+0000 I CONTROL  [initandlisten] db version v3.6.23
+item-db-1   | 2023-12-17T15:16:29.640+0000 I CONTROL  [initandlisten] git version: d352e6a4764659e0d0350ce77279de3c1f243e5c
+item-db-1   | 2023-12-17T15:16:29.640+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+item-db-1   | 2023-12-17T15:16:29.640+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+item-db-1   | 2023-12-17T15:16:29.640+0000 I CONTROL  [initandlisten] modules: none
+item-db-1   | 2023-12-17T15:16:29.640+0000 I CONTROL  [initandlisten] build environment:
+item-db-1   | 2023-12-17T15:16:29.640+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+item-db-1   | 2023-12-17T15:16:29.640+0000 I CONTROL  [initandlisten]     distarch: x86_64
+item-db-1   | 2023-12-17T15:16:29.640+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+item-db-1   | 2023-12-17T15:16:29.640+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+item-db-1   | 2023-12-17T15:16:29.641+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+item-db-1   | 2023-12-17T15:16:29.641+0000 I STORAGE  [initandlisten]
+item-db-1   | 2023-12-17T15:16:29.641+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+item-db-1   | 2023-12-17T15:16:29.641+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+item-db-1   | 2023-12-17T15:16:29.641+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3413M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+item-app-1  |
+item-app-1  | > docker-software-delivery@1.0.0 start /app
+item-app-1  | > node ./bin/www
+item-app-1  |
+item-db-1   | 2023-12-17T15:16:30.255+0000 I STORAGE  [initandlisten] WiredTiger message [1702826190:255295][1:0x7f99db14ca40], txn-recover: Main recovery loop: starting at 2/6016
+item-db-1   | 2023-12-17T15:16:30.337+0000 I STORAGE  [initandlisten] WiredTiger message [1702826190:337568][1:0x7f99db14ca40], txn-recover: Recovering log 2 through 3
+item-db-1   | 2023-12-17T15:16:30.393+0000 I STORAGE  [initandlisten] WiredTiger message [1702826190:393125][1:0x7f99db14ca40], txn-recover: Recovering log 3 through 3
+item-app-1  | NODE_ENV: production
+item-db-1   | 2023-12-17T15:16:30.444+0000 I STORAGE  [initandlisten] WiredTiger message [1702826190:444055][1:0x7f99db14ca40], txn-recover: Set global recovery timestamp: 0
+item-app-1  | /app/node_modules/mongodb/lib/mongo_client.js:421
+item-app-1  |           throw err
+item-app-1  |           ^
+item-app-1  |
+item-app-1  | AssertionError [ERR_ASSERTION]: null == Error [MongoError]: failed to connect to server [item-db:27017] on first connect [Error: connect ECONNREFUSED 172.18.0.2:27017
+item-app-1  |     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16) {
+item-app-1  |   name: 'MongoError'
+item-app-1  | }]
+item-app-1  |     at Pool.<anonymous> (/app/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+item-app-1  |     at Pool.emit (events.js:400:28)
+item-app-1  |     at Connection.<anonymous> (/app/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+item-app-1  |     at Object.onceWrapper (events.js:520:26)
+item-app-1  |     at Connection.emit (e...
+item-app-1  |     at /app/app.js:24:10
+item-app-1  |     at connectCallback (/app/node_modules/mongodb/lib/mongo_client.js:527:5)
+item-app-1  |     at /app/node_modules/mongodb/lib/mongo_client.js:418:11
+item-app-1  |     at processTicksAndRejections (internal/process/task_queues.js:77:11) {
+item-app-1  |   generatedMessage: true,
+item-app-1  |   code: 'ERR_ASSERTION',
+item-app-1  |   actual: null,
+item-app-1  |   expected: Error [MongoError]: failed to connect to server [item-db:27017] on first connect [Error: connect ECONNREFUSED 172.18.0.2:27017
+item-app-1  |       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16) {
+item-app-1  |     name: 'MongoError'
+item-app-1  |   }]
+item-app-1  |       at Pool.<anonymous> (/app/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+item-app-1  |       at Pool.emit (events.js:400:28)
+item-app-1  |       at Connection.<anonymous> (/app/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+item-app-1  |       at Object.onceWrapper (events.js:520:26)
+item-app-1  |       at Connection.emit (events.js:400:28)
+item-app-1  |       at Socket.<anonymous> (/app/node_modules/mongodb-core/lib/connection/connection.js:189:49)
+item-app-1  |       at Object.onceWrapper (events.js:520:26)
+item-app-1  |       at Socket.emit (events.js:400:28)
+item-app-1  |       at emitErrorNT (internal/streams/destroy.js:106:8)
+item-app-1  |       at emitErrorCloseNT (internal/streams/destroy.js:74:3),
+item-app-1  |   operator: '=='
+item-app-1  | }
+item-app-1  | npm ERR! code ELIFECYCLE
+item-app-1  | npm ERR! errno 1
+item-app-1  | npm ERR! docker-software-delivery@1.0.0 start: `node ./bin/www`
+item-app-1  | npm ERR! Exit status 1
+item-app-1  | npm ERR!
+item-app-1  | npm ERR! Failed at the docker-software-delivery@1.0.0 start script.
+item-app-1  | npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+item-app-1  |
+item-app-1  | npm ERR! A complete log of this run can be found in:
+item-app-1  | npm ERR!     /root/.npm/_logs/2023-12-17T15_16_30_463Z-debug.log
+item-db-1   | 2023-12-17T15:16:30.493+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T15:16:30.493+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+item-db-1   | 2023-12-17T15:16:30.493+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+item-db-1   | 2023-12-17T15:16:30.493+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T15:16:30.493+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T15:16:30.493+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+item-db-1   | 2023-12-17T15:16:30.493+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+item-db-1   | 2023-12-17T15:16:30.493+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T15:16:30.497+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+item-db-1   | 2023-12-17T15:16:30.498+0000 I NETWORK  [initandlisten] listening via socket bound to 0.0.0.0
+item-db-1   | 2023-12-17T15:16:30.498+0000 I NETWORK  [initandlisten] listening via socket bound to /tmp/mongodb-27017.sock
+item-db-1   | 2023-12-17T15:16:30.498+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+item-app-1 exited with code 1
+[+] Stopping 2/2
+ ✔ Container proyek-pertama-item-app-1  Stopped                                                                                                                                                               0.0s
+ ✔ Container proyek-pertama-item-db-1   Stopped                                                                                                                                                               0.5s
+item-db-1 exited with code 0
+canceled
+[+] Running 2/2-OB00BAT:~/proyek-pertama$ docker compose up
+ ✔ Container proyek-pertama-item-db-1   Recreated                                                                                                                                                             0.1s
+ ✔ Container proyek-pertama-item-app-1  Recreated                                                                                                                                                             0.1s
+Attaching to item-app-1, item-db-1
+item-db-1   | 2023-12-17T15:22:25.891+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=32589b86b74b
+item-db-1   | 2023-12-17T15:22:25.891+0000 I CONTROL  [initandlisten] db version v3.6.23
+item-db-1   | 2023-12-17T15:22:25.891+0000 I CONTROL  [initandlisten] git version: d352e6a4764659e0d0350ce77279de3c1f243e5c
+item-db-1   | 2023-12-17T15:22:25.891+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+item-db-1   | 2023-12-17T15:22:25.891+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+item-db-1   | 2023-12-17T15:22:25.891+0000 I CONTROL  [initandlisten] modules: none
+item-db-1   | 2023-12-17T15:22:25.891+0000 I CONTROL  [initandlisten] build environment:
+item-db-1   | 2023-12-17T15:22:25.891+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+item-db-1   | 2023-12-17T15:22:25.891+0000 I CONTROL  [initandlisten]     distarch: x86_64
+item-db-1   | 2023-12-17T15:22:25.891+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+item-db-1   | 2023-12-17T15:22:25.891+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+item-db-1   | 2023-12-17T15:22:25.892+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+item-db-1   | 2023-12-17T15:22:25.892+0000 I STORAGE  [initandlisten]
+item-db-1   | 2023-12-17T15:22:25.893+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+item-db-1   | 2023-12-17T15:22:25.893+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+item-db-1   | 2023-12-17T15:22:25.893+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3413M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+item-app-1  |
+item-app-1  | > docker-software-delivery@1.0.0 start /app
+item-app-1  | > node ./bin/www
+item-app-1  |
+item-db-1   | 2023-12-17T15:22:26.543+0000 I STORAGE  [initandlisten] WiredTiger message [1702826546:543520][1:0x7f7e21f74a40], txn-recover: Main recovery loop: starting at 3/6400
+item-db-1   | 2023-12-17T15:22:26.625+0000 I STORAGE  [initandlisten] WiredTiger message [1702826546:625469][1:0x7f7e21f74a40], txn-recover: Recovering log 3 through 4
+item-app-1  | NODE_ENV: production
+item-app-1  | /app/node_modules/mongodb/lib/mongo_client.js:421
+item-app-1  |           throw err
+item-app-1  |           ^
+item-app-1  |
+item-app-1  | AssertionError [ERR_ASSERTION]: null == Error [MongoError]: failed to connect to server [item-db:27017] on first connect [Error: connect ECONNREFUSED 172.18.0.2:27017
+item-app-1  |     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16) {
+item-app-1  |   name: 'MongoError'
+item-app-1  | }]
+item-app-1  |     at Pool.<anonymous> (/app/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+item-app-1  |     at Pool.emit (events.js:400:28)
+item-app-1  |     at Connection.<anonymous> (/app/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+item-app-1  |     at Object.onceWrapper (events.js:520:26)
+item-app-1  |     at Connection.emit (e...
+item-app-1  |     at /app/app.js:24:10
+item-app-1  |     at connectCallback (/app/node_modules/mongodb/lib/mongo_client.js:527:5)
+item-app-1  |     at /app/node_modules/mongodb/lib/mongo_client.js:418:11
+item-app-1  |     at processTicksAndRejections (internal/process/task_queues.js:77:11) {
+item-app-1  |   generatedMessage: true,
+item-app-1  |   code: 'ERR_ASSERTION',
+item-app-1  |   actual: null,
+item-app-1  |   expected: Error [MongoError]: failed to connect to server [item-db:27017] on first connect [Error: connect ECONNREFUSED 172.18.0.2:27017
+item-app-1  |       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16) {
+item-app-1  |     name: 'MongoError'
+item-app-1  |   }]
+item-app-1  |       at Pool.<anonymous> (/app/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+item-app-1  |       at Pool.emit (events.js:400:28)
+item-app-1  |       at Connection.<anonymous> (/app/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+item-app-1  |       at Object.onceWrapper (events.js:520:26)
+item-app-1  |       at Connection.emit (events.js:400:28)
+item-app-1  |       at Socket.<anonymous> (/app/node_modules/mongodb-core/lib/connection/connection.js:189:49)
+item-app-1  |       at Object.onceWrapper (events.js:520:26)
+item-app-1  |       at Socket.emit (events.js:400:28)
+item-app-1  |       at emitErrorNT (internal/streams/destroy.js:106:8)
+item-app-1  |       at emitErrorCloseNT (internal/streams/destroy.js:74:3),
+item-app-1  |   operator: '=='
+item-app-1  | }
+item-app-1  | npm ERR! code ELIFECYCLE
+item-app-1  | npm ERR! errno 1
+item-db-1   | 2023-12-17T15:22:26.695+0000 I STORAGE  [initandlisten] WiredTiger message [1702826546:695048][1:0x7f7e21f74a40], txn-recover: Recovering log 4 through 4
+item-app-1  | npm ERR! docker-software-delivery@1.0.0 start: `node ./bin/www`
+item-app-1  | npm ERR! Exit status 1
+item-app-1  | npm ERR!
+item-app-1  | npm ERR! Failed at the docker-software-delivery@1.0.0 start script.
+item-app-1  | npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+item-app-1  |
+item-app-1  | npm ERR! A complete log of this run can be found in:
+item-app-1  | npm ERR!     /root/.npm/_logs/2023-12-17T15_22_26_698Z-debug.log
+item-db-1   | 2023-12-17T15:22:26.748+0000 I STORAGE  [initandlisten] WiredTiger message [1702826546:748819][1:0x7f7e21f74a40], txn-recover: Set global recovery timestamp: 0
+item-db-1   | 2023-12-17T15:22:26.796+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T15:22:26.796+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+item-db-1   | 2023-12-17T15:22:26.796+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+item-db-1   | 2023-12-17T15:22:26.796+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T15:22:26.796+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T15:22:26.796+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+item-db-1   | 2023-12-17T15:22:26.796+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+item-db-1   | 2023-12-17T15:22:26.796+0000 I CONTROL  [initandlisten]
+item-db-1   | 2023-12-17T15:22:26.799+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+item-db-1   | 2023-12-17T15:22:26.800+0000 I NETWORK  [initandlisten] listening via socket bound to 0.0.0.0
+item-db-1   | 2023-12-17T15:22:26.800+0000 I NETWORK  [initandlisten] listening via socket bound to /tmp/mongodb-27017.sock
+item-db-1   | 2023-12-17T15:22:26.800+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+item-app-1 exited with code 0
+item-app-1  |
+item-app-1  | > docker-software-delivery@1.0.0 start /app
+item-app-1  | > node ./bin/www
+item-app-1  |
+item-app-1  | NODE_ENV: production
+item-db-1   | 2023-12-17T15:22:27.890+0000 I NETWORK  [listener] connection accepted from 172.18.0.3:60074 #1 (1 connection now open)
+item-db-1   | 2023-12-17T15:22:27.896+0000 I NETWORK  [conn1] received client metadata from 172.18.0.3:60074 conn1: { driver: { name: "nodejs", version: "2.2.36" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "5.15.133.1-microsoft-standard-WSL2" }, platform: "Node.js v14.21.3, LE, mongodb-core: 2.1.20" }
+item-app-1  | Connected to database
